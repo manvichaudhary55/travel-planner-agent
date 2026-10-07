@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TC01",
+    "category": "Normal Request",
+    "prompt": "Plan a 3-day trip to Jaipur with a budget of ₹15,000. I like history and local food.",
+    "expected_behavior": "Generate a complete 3-day itinerary, recommend historical monuments in Jaipur, incorporate regional food spots, and provide a categorized budget breakdown within ₹15,000.",
+    "expected_tools": ["calculate_budget", "recommend_places"],
+    "requires_tools": true
+  },
+  {
+    "id": "TC02",
+    "category": "Different Destination & Duration",
+    "prompt": "I want to visit Delhi for 5 days with a budget of ₹25,000. Focus on historical monuments and shopping.",
+    "expected_behavior": "Generate a 5-day Delhi itinerary, allocate a ₹25,000 budget, and suggest major historical sights and shopping markets.",
+    "expected_tools": ["calculate_budget", "recommend_places"],
+    "requires_tools": true
+  },
+  {
+    "id": "TC03",
+    "category": "Low-Budget Trip",
+    "prompt": "Plan a 2-day trip to Goa with a tiny budget of ₹2,000. Keep it as cheap as possible.",
+    "expected_behavior": "Acknowledge the tight budget constraints, allocate frugal expense categories, and suggest budget-friendly/free attractions.",
+    "expected_tools": ["calculate_budget"],
+    "requires_tools": true
+  },
+  {
+    "id": "TC04",
+    "category": "Missing Information (Destination)",
+    "prompt": "Can you create a 4-day itinerary with a ₹20,000 budget? I love beaches and water sports.",
+    "expected_behavior": "Detect the missing destination, suggest potential beach locations (e.g., Goa, Gokarna, Andaman), or prompt the user to specify a city.",
+    "expected_tools": [],
+    "requires_tools": false
+  },
+  {
+    "id": "TC05",
+    "category": "Missing Information (Budget)",
+    "prompt": "Plan a 3-day holiday in Manali focusing on snow activities and nature.",
+    "expected_behavior": "Provide an itinerary while either assuming a moderate default budget or prompting the user for their target budget range.",
+    "expected_tools": ["recommend_places"],
+    "requires_tools": false
+  },
+  {
+    "id": "TC06",
+    "category": "Invalid Input (Duration)",
+    "prompt": "I want to visit Jaipur for -2 days with a budget of ₹10,000.",
+    "expected_behavior": "Identify the negative/invalid trip duration and politely request a valid number of days instead of generating a negative itinerary.",
+    "expected_tools": [],
+    "requires_tools": false
+  },
+  {
+    "id": "TC07",
+    "category": "Invalid Input (Budget)",
+    "prompt": "Plan a 3-day trip to Jaipur with a budget of -₹5,000.",
+    "expected_behavior": "Detect the negative budget value as invalid and prompt the user for a realistic positive budget amount.",
+    "expected_tools": [],
+    "requires_tools": false
+  },
+  {
+    "id": "TC08",
+    "category": "User Preference (History)",
+    "prompt": "I have 3 days in Jaipur with ₹15,000. I only care about UNESCO heritage sites and historic forts.",
+    "expected_behavior": "Heavily prioritize forts and UNESCO sites (Amber Fort, Jantar Mantar, City Palace) in the itinerary and omit filler attractions.",
+    "expected_tools": ["calculate_budget", "recommend_places"],
+    "requires_tools": true
+  },
+  {
+    "id": "TC09",
+    "category": "User Preference (Food)",
+    "prompt": "I'm going to Jaipur for 2 days with ₹10,000. Only tell me about famous local street foods and sweets, no monuments.",
+    "expected_behavior": "Focus exclusively on culinary spots, famous sweet shops (LMB, Rawat), and food trails, respecting the exclusion of monuments.",
+    "expected_tools": ["calculate_budget", "recommend_places"],
+    "requires_tools": true
+  },
+  {
+    "id": "TC10",
+    "category": "Out of Scope / Non-Travel",
+    "prompt": "Can you write Python code to train a Convolutional Neural Network?",
+    "expected_behavior": "Politely decline to answer because the query is non-travel related and outside the agent's defined scope.",
+    "expected_tools": [],
+    "requires_tools": false
+  }
+]

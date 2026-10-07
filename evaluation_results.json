@@ -1,0 +1,177 @@
+{
+  "benchmark_summary": {
+    "total_test_cases": 10,
+    "overall_score_percentage": 99.5,
+    "judge_model": "gemini-3.5-flash-lite"
+  },
+  "test_cases": [
+    {
+      "id": "TC01",
+      "category": "Normal Request",
+      "prompt": "Plan a 3-day trip to Jaipur with a budget of \u20b915,000. I like history and local food.",
+      "agent_response": "Here is a complete 3-day travel plan for Jaipur tailored to your budget of \u20b915,000 and your interests in history and local food.\n\n### **Trip Summary**\n* **Destination:** Jaipur, Rajasthan\n* **Duration:** 3 Days / 2 Nights\n* **Total Budget:** \u20b915,000\n* **Travel Style:** History & Culinary Explorer\n\n---\n\n### **Budget Breakdown (\u20b915,000 Total)**\n* **Accommodation (2 Nights):** \u20b94,000 (Budget-friendly heritage hotel or clean homestay)\n* **Food & Local Delicacies:** \u20b93,500 (Street food, iconic local eateries like Rawat Mishthan Bhandar and Lassiwala, and traditional thalis)\n* **Sightseeing & Entry Tickets:** \u20b92,000 (Forts, museums, and monuments)\n* **Local Transport (Auto-rickshaws, e-rickshaws, and shared cabs):** \u20b93,500\n* **Miscellaneous / Souvenirs:** \u20b92,000\n\n---\n\n### **Curated Places for History & Food Lovers**\n1. **Amber Fort (Amer Palace):** A magnificent blend of Hindu and Mughal architecture overlooking Maota Lake.\n2. **City Palace & Jantar Mantar:** Royal residence and the historic astronomical observatory.\n3. **Hawa Mahal:** The iconic \"Palace of Winds\" built with intricate pink sandstone honeycombed windows.\n4. **Albert Hall Museum:** Rajasthan's oldest museum showcasing rich historical artifacts and Indo-Saracenic architecture.\n5. **Chaura Rasta & Johari Bazaar:** Perfect for walking through historic markets and sampling authentic street food.\n\n---\n\n### **Day-Wise Itinerary**\n\n#### **Day 1: The Royal Heritage of Old Jaipur**\n* **Morning:** Arrive in Jaipur and check into your hotel. Head straight to the **City Palace** to explore the museum, courtyards, and royal armory.\n* **Lunch:** Walk over to **Jantar Mantar** (UNESCO World Heritage site) right next door. Afterward, grab a quick lunch featuring *Pyaaz Kachori* at the famous **Rawat Mishthan Bhandar**.\n* **Afternoon:** Stop by **Hawa Mahal** for photos and admire its unique facade. \n* **Evening:** Explore the bustling lanes of **Johari Bazaar** and try traditional *Ghevar* and *Mirchi Vada*. Have dinner at a rooftop restaurant overlooking the illuminated city.\n\n#### **Day 2: Majestic Forts & Culinary Heritage**\n* **Morning:** Take an auto-rickshaw to **Amber Fort**. Spend a few hours exploring Sheesh Mahal (Mirror Palace) and the grand courtyards. \n* **Lunch:** Enjoy an authentic Rajasthani Thali (Dal Baati Churma) at a local restaurant near Amer or back in the city center.\n* **Afternoon:** Visit the historic **Albert Hall Museum** and stroll through the surrounding Ram Niwas Garden. \n* **Evening:** Head to **Nahargarh Fort** just before sunset to get a breathtaking panoramic view of the entire pink city lit up at night. Enjoy dinner at Padao open-air restaurant at the fort.\n\n#### **Day 3: Culture, Markets, and Local Flavors**\n* **Morning:** Start your day with a glass of famous sweet saffron lassi at **Lassiwala** on MI Road. Visit the serene **Gatore ki Chhatriyan** (royal cremation grounds with stunning marble architecture).\n* **Lunch:** Savor local street snacks like *Dal Baati* or street chaat in Tripolia Bazaar.\n* **Afternoon:** Pick up some quick souvenirs (blue pottery or block-print textiles) before heading to your departure station/airport.\n\n---\n\n### **Practical Pro-Tips**\n* **Transport:** Use auto-rickshaws or ride-hailing apps (like Ola/Uber or local e-rickshaws) to save money compared to hiring a private cab for the full day.\n* **Combined Tickets:** Buy the composite entry ticket that covers multiple monuments (Amber Fort, Jantar Mantar, Albert Hall, etc.) to save on entry fees.\n* **Hydration:** Carry a water bottle and wear comfortable walking shoes, as exploring the forts involves climbing stone ramps and stairs.",
+      "tools_called": [
+        "calculate_budget",
+        "recommend_places"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent generated a comprehensive 3-day itinerary within the \u20b915,000 budget constraint, effectively incorporated history and local food preferences, and utilized the appropriate tools."
+    },
+    {
+      "id": "TC02",
+      "category": "Different Destination & Duration",
+      "prompt": "I want to visit Delhi for 5 days with a budget of \u20b925,000. Focus on historical monuments and shopping.",
+      "agent_response": "### Trip Summary: 5 Days in Delhi\n* **Destination:** Delhi, India\n* **Duration:** 5 Days\n* **Total Budget:** \u20b925,000\n* **Focus:** Historical Monuments & Shopping\n\n---\n\n### Budget Breakdown (Estimated for 5 Days)\n* **Accommodation (Budget Hotels / Hostels):** ~\u20b97,500 (\u20b91,500/night)\n* **Food & Local Delicacies:** ~\u20b95,000 (\u20b91,000/day exploring street food and local eateries)\n* **Local Transport (Metro, Autos, Cabs):** ~\u20b93,000 (Using the Delhi Metro is fast, cheap, and efficient)\n* **Sightseeing & Entry Fees:** ~\u20b91,500 (Monuments and museums)\n* **Shopping & Souvenirs:** ~\u20b98,000\n\n---\n\n### Curated Places & Highlights\n* **Historical Monuments:** Red Fort, Qutub Minar, Humayun\u2019s Tomb, Agrasen ki Baoli, Purana Qila, and India Gate.\n* **Shopping Destinations:** Chandni Chowk (traditional goods, spices, street shopping), Dilli Haat (handicrafts from across India), Janpath Market (affordable fashion and trinkets), and Sarojini Nagar Market (budget clothing).\n\n---\n\n### Day-Wise Itinerary\n\n#### **Day 1: Old Delhi Heritage & Street Shopping**\n* **Morning:** Arrive, check-in, and head straight to **Old Delhi**. Start with a visit to the majestic **Red Fort** (*Lal Qila*).\n* **Afternoon:** Explore **Jama Masjid**, then take an exciting cycle-rickshaw ride through the narrow lanes of **Chandni Chowk**. Stop for lunch at iconic local spots like Karim's or try local street food (Parathas at Paranthe Wali Gali).\n* **Evening:** Shop for traditional clothes, jewelry, and spices in Chandni Chowk's vibrant markets.\n\n#### **Day 2: Imperial Delhi & Connaught Place**\n* **Morning:** Visit **Agrasen ki Baoli** (historic stepwell) and drive past **Rashtrapati Bhavan** and **Parliament House**, stopping at **India Gate** for photos.\n* **Afternoon:** Explore the **National Museum** or take a peaceful walk around **Lodhi Gardens** to see historic tombs amidst greenery.\n* **Evening:** Head to **Connaught Place (CP)** for dinner and casual shopping around the colonial-era inner and outer circles.\n\n#### **Day 3: Mughal Grandeur & South Delhi Markets**\n* **Morning:** Visit the stunning **Humayun\u2019s Tomb**, the architectural precursor to the Taj Mahal. Next, head to **Safdarjung's Tomb**.\n* **Afternoon:** Enjoy a traditional lunch and head to **Dilli Haat (INA)** to experience authentic handicrafts and cultural artifacts from various Indian states.\n* **Evening:** Continue shopping at **Sarojini Nagar Market** for budget-friendly fashion and trendy clothes.\n\n#### **Day 4: The Medieval Marvel of Qutub Minar & Mehrauli**\n* **Morning:** Explore the UNESCO World Heritage site **Qutub Minar** and the surrounding Mehrauli Archaeological Park.\n* **Afternoon:** Visit the nearby **Mehrauli Archaeological Park** or relax at a caf\u00e9 in the trendy Dhan Mill Compound.\n* **Evening:** Shop at **Janpath Market** near Connaught Place for souvenirs, brass artifacts, and bohemian jewelry.\n\n#### **Day 5: Spiritual Serenity & Souvenir Shopping**\n* **Morning:** Visit the breathtaking **Akshardham Temple** or the serene **Lotus Temple** (*Bah\u00e1'\u00ed House of Worship*).\n* **Afternoon:** Stroll through **Khan Market** for upscale shopping, bookstores, and a nice lunch.\n* **Evening:** Wrap up your trip with last-minute souvenir shopping, pack your bags, and depart for your return journey.\n\n---\n\n### Practical Pro-Tips\n1. **Use the Delhi Metro:** It is air-conditioned, incredibly cheap, avoids heavy traffic, and connects almost all major monuments and markets.\n2. **Haggle Wisely:** Bargaining is expected and part of the experience in street markets like Chandni Chowk, Janpath, and Sarojini Nagar. Start by offering about 50% of the quoted price and settle around 60\u201370%.\n3. **Stay Hydrated:** Carry a water bottle and wear comfortable walking shoes, as exploring historical sites involves a lot of walking.",
+      "tools_called": [
+        "calculate_budget",
+        "recommend_places"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent perfectly satisfied the request by generating a comprehensive 5-day Delhi itinerary, allocating the exact \u20b925,000 budget, and prominently featuring historical monuments and shopping markets as requested."
+    },
+    {
+      "id": "TC03",
+      "category": "Low-Budget Trip",
+      "prompt": "Plan a 2-day trip to Goa with a tiny budget of \u20b92,000. Keep it as cheap as possible.",
+      "agent_response": "Planning a 2-day trip to Goa with a budget of \u20b92,000 is an extreme challenge, but totally doable if you stay strictly backpacker-style (assuming you are already arriving in Goa or live nearby). Here is your hyper-budget survival guide and itinerary!\n\n### Trip Summary\n* **Destination:** Goa, India\n* **Duration:** 2 Days / 1 Night\n* **Total Budget:** \u20b92,000\n\n---\n\n### Budget Breakdown (\u20b92,000 Total)\n* **Accommodation (1 Night):** \u20b9600 (Budget dormitory hostel bed)\n* **Food & Hydration:** \u20b9800 (Local *thalis*, street food, and *shacks* avoiding fancy restaurants)\n* **Local Transport:** \u20b9400 (Public local buses/walking; avoid private taxis entirely)\n* **Buffer / Miscellaneous:** \u20b9200 (Emergency water/snacks)\n\n---\n\n### Curated Free & Cheap Places to Visit\n* **Calangute & Baga Beach:** Enjoy the vibrant atmosphere and golden sands completely free.\n* **Aguada Fort (Outer View & Lighthouse area):** Iconic historical site with stunning ocean views (nominal or zero entry for exterior exploring).\n* **Fontainhas (Latin Quarter):** Walk through the colorful, historic Portuguese-style streets of Panaji for free photography and sightseeing.\n* **Mapusa Market:** Great for soaking in local Goan culture and finding cheap local snacks.\n\n---\n\n### Day-Wise Itinerary\n\n#### Day 1: North Goa Beaches & Forts\n* **Morning:** Arrive and check into a budget backpacker hostel (approx. \u20b9600). Take a cheap local bus to **Calangute Beach** and spend the morning walking along the shore.\n* **Lunch:** Grab a local Goan fish *thali* or veg meal at a local roadside eatery (\u20b9150\u2013\u20b9200).\n* **Afternoon:** Take a local bus towards **Aguada Fort**. Walk around the ramparts, take in the sweeping sea views, and catch the sunset.\n* **Dinner:** Enjoy cheap street food or a modest meal at a beach shack (\u20b9150\u2013\u20b9200). Head back to the hostel for the night.\n\n#### Day 2: Culture & Heritage in Panaji\n* **Morning:** Check out of the hostel. Catch a local bus to **Panaji** (the capital) and explore **Fontainhas**, the charming Latin Quarter with its bright pastel-colored houses.\n* **Lunch:** Try local Goan snacks or an inexpensive veg/non-veg meal in Panaji city (\u20b9150\u2013\u20b9200).\n* **Afternoon:** Visit the magnificent **Immaculate Conception Church** (exterior and surrounding square), then spend your final hours relaxing at **Miramar Beach**.\n* **Evening:** Board your transport home.\n\n---\n\n### Practical Pro-Tips for a \u20b92,000 Budget\n1. **Never take auto-rickshaws or taxis:** They will wipe out your entire \u20b92,000 budget in one ride. Use **Goa\u2019s government local buses**\u2014they cost only \u20b910 to \u20b930 per trip.\n2. **Stay in Dorms:** Book a bed in a shared hostel dorm well in advance to keep accommodation under \u20b9600.\n3. **Eat Local:** Avoid tourist-trap beach shacks with glowing menus. Eat where the locals eat (look for small *Khanawalis* or local mess halls).\n4. **Water:** Carry a reusable bottle and refill it to save money on bottled water.",
+      "tools_called": [
+        "calculate_budget",
+        "recommend_places"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent perfectly acknowledged the extreme budget, structured a frugal and realistic breakdown fitting \u20b92,000, suggested free/cheap attractions, and effectively utilized tools."
+    },
+    {
+      "id": "TC04",
+      "category": "Missing Information (Destination)",
+      "prompt": "Can you create a 4-day itinerary with a \u20b920,000 budget? I love beaches and water sports.",
+      "agent_response": "To create the best beach and water sports trip for you, I just need a couple more details:\n\n1. **Destination:** Where would you like to go? (For a \u20b920,000 budget, popular coastal destinations like Goa, Gokarna, Pondicherry, or Puri are great options).\n2. **Departure City:** Where will you be traveling from? (This helps factor in your travel costs within the budget).\n\nOnce you share these details, I'll put together a complete budget breakdown, a curated list of water sports, and a 4-day itinerary for you!",
+      "tools_called": [],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent correctly identified the missing destination and departure city, suggested budget-appropriate beach options, and asked for the necessary details to complete the itinerary."
+    },
+    {
+      "id": "TC05",
+      "category": "Missing Information (Budget)",
+      "prompt": "Plan a 3-day holiday in Manali focusing on snow activities and nature.",
+      "agent_response": "To give you the best possible recommendations and an accurate financial breakdown for your 3-day holiday in Manali, could you please let me know:\n\n1. **What is your estimated total budget** for the trip (excluding or including travel to/from Manali)?\n2. **Where are you traveling from**, and what is your preferred mode of transport (e.g., flight to Kullu-Manali airport, overnight Volvo bus from Delhi, or driving)?",
+      "tools_called": [
+        "calculate_budget",
+        "recommend_places"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 0.8,
+        "overall_score_pct": 95
+      },
+      "reason": "The agent appropriately asked for the budget as expected by the criteria before generating a full itinerary, though it used a couple of extra tools."
+    },
+    {
+      "id": "TC06",
+      "category": "Invalid Input (Duration)",
+      "prompt": "I want to visit Jaipur for -2 days with a budget of \u20b910,000.",
+      "agent_response": "It looks like you've entered a negative duration (`-2 days`), which isn't valid for travel planning! \n\nCould you please let me know how many positive days you would like to spend in Jaipur (e.g., 2 or 3 days) so I can create a complete itinerary, budget breakdown, and destination recommendations for you?",
+      "tools_called": [],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent correctly identified the invalid negative duration, politely requested a valid number of days, and avoided generating a faulty itinerary without needing any tools."
+    },
+    {
+      "id": "TC07",
+      "category": "Invalid Input (Budget)",
+      "prompt": "Plan a 3-day trip to Jaipur with a budget of -\u20b95,000.",
+      "agent_response": "Invalid input detected: The budget cannot be negative. Please provide a realistic, positive travel budget (e.g., \u20b915,000 or more for a 3-day trip to Jaipur) so I can help you plan your itinerary.",
+      "tools_called": [],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent correctly identified the invalid negative budget, refused to proceed with it, and politely asked the user for a realistic positive budget without needing any external tools."
+    },
+    {
+      "id": "TC08",
+      "category": "User Preference (History)",
+      "prompt": "I have 3 days in Jaipur with \u20b915,000. I only care about UNESCO heritage sites and historic forts.",
+      "agent_response": "Here is your customized 3-day heritage and fort-focused itinerary for Jaipur. With a budget of **\u20b915,000**, you can comfortably experience Jaipur's magnificent UNESCO World Heritage sites and historic hill forts while staying in charming heritage accommodations.\n\n---\n\n### \ud83c\udf1f Trip Summary\n* **Destination:** Jaipur, Rajasthan, India\n* **Duration:** 3 Days / 2 Nights\n* **Theme:** UNESCO World Heritage Sites & Historic Forts\n* **Total Budget:** \u20b915,000 INR (Ideal for a comfortable mid-range solo traveler or couple)\n\n---\n\n### \ud83d\udcb0 Budget Breakdown (\u20b915,000)\n\n| Category | Estimated Cost | Description |\n| :--- | :--- | :--- |\n| **Accommodation** | \u20b94,500 | 2 Nights in a heritage guest house/boutique hotel (e.g., *Umaid Bhawan* or *Kalyan Heritage*) |\n| **Transport** | \u20b92,500 | Auto-rickshaws, e-rickshaws, and Uber/Ola for fort climbs |\n| **Sightseeing & Entry Fees** | \u20b91,500 | Composite ticket (covers major sites) + individual fort entry & camera fees |\n| **Food & Dining** | \u20b93,500 | Traditional Rajasthani meals (Dal Baati Churma, Pyaaz Kachori, Lassi) |\n| **Local Guide / Misc** | \u20b93,000 | Local guides at Amber Fort/Jantar Mantar & emergency buffer |\n| **Total** | **\u20b915,000** | **Perfectly Balanced** |\n\n---\n\n### \ud83c\udfdb\ufe0f Curated Places (UNESCO & Historic Forts)\n1. **Amber (Amer) Fort:** A UNESCO World Heritage Site (part of the Hill Forts of Rajasthan) famous for its artistic Hindu-style elements and the breathtaking *Sheesh Mahal* (Mirror Palace).\n2. **Jantar Mantar:** A UNESCO World Heritage Site featuring the world's largest stone sundial and astronomical instruments built by Maharaja Sawai Jai Singh II.\n3. **Jaigarh Fort:** The military fort connected to Amber via subterranean passages, housing the *Jaivana Cannon*\u2014the world's largest cannon on wheels.\n4. **Nahargarh Fort:** Perched on the edge of the Aravalli Hills, offering sweeping, panoramic views of the entire Pink City.\n5. **Jaipur Walled City (UNESCO Site):** The historic pink-painted core of the city, including the iconic **Hawa Mahal** and **City Palace**.\n6. **Royal Gaitor Cenotaphs:** The stunning, intricately carved marble cenotaphs of the royal family, located at the foothills of Nahargarh.\n\n---\n\n### \ud83d\udcc5 Day-Wise Itinerary\n\n#### **Day 1: The UNESCO Walled City & Astronomical Wonders**\n* **Morning (09:00 AM - 12:00 PM):** Start at **Hawa Mahal** (Palace of Winds) to capture the morning light hitting the pink sandstone facade. Walk 5 minutes to the **City Palace** to explore the royal courtyards, weapons museum, and the famous *Pritam Niwas Chowk* gates.\n* **Lunch (12:30 PM - 01:30 PM):** Enjoy a traditional Rajasthani thali at *LMB (Laxmi Mishthan Bhandar)* in Johri Bazar.\n* **Afternoon (02:00 PM - 04:30 PM):** Visit the adjacent **Jantar Mantar** (UNESCO Site). *Pro-tip: Hire an authorized local guide here to explain how these massive stone instruments accurately tell time and track stars.*\n* **Evening (05:00 PM onwards):** Walk through the historic gates of the **UNESCO Walled City** (Bapu Bazar and Johri Bazar) to admire the uniform architecture and vibrant street life.\n\n#### **Day 2: The Mighty Hill Forts of Amer & Jaigarh**\n* **Morning (08:30 AM - 12:30 PM):** Head early to **Amber Fort** (UNESCO Site) to beat the crowds. Explore the grand courtyards, the Diwan-i-Aam, and the dazzling *Sheesh Mahal*. \n* **Lunch (01:00 PM - 02:00 PM):** Have lunch at *The Stag Rooftop Cafe*, which offers an incredible, unobstructed view of Amber Fort.\n* **Afternoon (02:30 PM - 05:30 PM):** Head up to **Jaigarh Fort**. Walk along its massive ramparts, explore the medieval armory, and stand in awe of the giant *Jaivana Cannon*.\n* **Evening (06:00 PM - 07:00 PM):** On your way back to the city, stop by the edge of Man Sagar Lake to view the floating **Jal Mahal** (Water Palace) illuminated at sunset.\n\n#### **Day 3: Nahargarh Fort & Royal Legacies**\n* **Morning (09:00 AM - 12:30 PM):** Drive up the winding roads of the Aravallis to **Nahargarh Fort**. Explore the *Madhavendra Bhawan* (a double-story palace with identical suites for the king's nine queens) and walk the fort walls.\n* **Lunch (01:00 PM - 02:00 PM):** Dine at *Padao Restaurant* inside the Nahargarh complex, enjoying a meal with a bird's-eye view of Jaipur.\n* **Afternoon (02:30 PM - 04:30 PM):** Descend the hills to visit the peaceful **Royal Gaitor Cenotaphs**, the historic resting place of Jaipur's rulers, featuring exquisite stone carvings.\n* **Evening (05:00 PM - 06:30 PM):** Make a final stop at the **Albert Hall Museum** to admire its stunning Indo-Saracenic architecture lit up beautifully at dusk.\n\n---\n\n### \ud83d\udca1 Practical Pro-Tips\n* **Get the Composite Ticket:** Buy the **Jaipur Composite Ticket** (approx. \u20b9300 for Indian tourists, \u20b91000 for foreigners). It is valid for 2 days and covers Amber Fort, Nahargarh Fort, Jantar Mantar, Hawa Mahal, and Albert Hall, saving you significant money and queue time.\n* **Start Early:** Forts open at 9:00 AM (Amber Fort opens at 8:00 AM). Arriving early helps you avoid the midday heat and tourist crowds.\n* **Transport Tip:** For Day 2 and Day 3 (the hill forts), hire a dedicated auto-rickshaw or cab for the entire day. App-based cabs (Uber/Ola) are easy to get *to* the forts, but finding a return ride from the top of the hills can be difficult.",
+      "tools_called": [
+        "calculate_budget",
+        "recommend_places"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent strictly adhered to the user's constraints by prioritizing UNESCO sites and historic forts, managed the \u20b915,000 budget correctly, omitted filler attractions, and used the expected tools effectively."
+    },
+    {
+      "id": "TC09",
+      "category": "User Preference (Food)",
+      "prompt": "I'm going to Jaipur for 2 days with \u20b910,000. Only tell me about famous local street foods and sweets, no monuments.",
+      "agent_response": "### Trip Summary\n* **Destination:** Jaipur, Rajasthan\n* **Duration:** 2 Days\n* **Total Budget:** \u20b910,000\n* **Focus:** Famous Local Street Foods & Sweets (No Monuments)\n\n---\n\n### Budget Breakdown (Estimated for 2 Days)\n* **Food & Culinary Exploration:** \u20b93,500 (More than enough for royal sweets and endless street food)\n* **Local Transport (Auto-rickshaws/E-rickshaws to food joints):** \u20b91,500\n* **Accommodation (Budget hotel/hostel):** \u20b94,000\n* **Miscellaneous / Emergency Buffer:** \u20b91,000\n\n---\n\n### Curated Places for Food & Sweets\n1. **Rawat Misthan Bhandar (Sindhi Camp):** World-famous for their spicy *Pyaaz Kachori* and traditional sweets like *Mawa Kachori*.\n2. **LMB (Lakshmi Misthan Bhandar, Johari Bazaar):** Legendary for pure desi ghee *Ghevar*, *Paneer Ghevhar*, and royal Rajasthani thali/snacks.\n3. **Pandit Ji Ka Dahi Bara (Chaura Rasta):** Serving melt-in-the-mouth *Dahi Vadas* loaded with sweet and spicy chutneys for decades.\n4. **Samrat (Chaura Rasta):** Famous for crispy, piping hot *Samosas* and fluffy *Pyaaz Kachoris*.\n5. **Aapni Dhani / Permanent Food Carts around MI Road:** Perfect for evening snacks like *Mirchi Bada* and *Dal Baati* street-style adaptations.\n\n---\n\n### Day-Wise Culinary Itinerary\n\n#### Day 1: The Classic Street Food Trail of the Walled City\n* **Morning (8:30 AM - 10:30 AM):** \n  * Start your day at **Rawat Misthan Bhandar**. Grab a legendary *Pyaaz Kachori* paired with a hot cup of masala chai. Follow it up with a sweet *Mawa Kachori*.\n* **Mid-Day (12:30 PM - 2:30 PM):** \n  * Head into the bustling lanes of Chaura Rasta. Stop by **Pandit Ji Ka Dahi Bara** for a refreshing plate of soft *Dahi Vadas*. \n* **Evening (4:30 PM - 7:30 PM):** \n  * Visit **Samrat** for evening samosas and mirchi badas. Afterward, wander through Johari Bazaar to sample local rabri and malpua from street vendors.\n\n#### Day 2: Royal Sweets & Savory Explorations\n* **Morning (9:00 AM - 11:00 AM):** \n  * Kick off Day 2 with a heavy breakfast of *Kachoris* and *Jalebis* at a local neighborhood stall in MI Road.\n* **Mid-Day (1:00 PM - 3:00 PM):** \n  * Head to **LMB (Lakshmi Misthan Bhandar)** in Johari Bazaar. Indulge in their seasonal *Ghevar* (if available) or assorted milk sweets like *Mawa Mishri*. \n* **Evening (5:00 PM onwards):** \n  * Conclude your food trail with street-side *Pani Puri*, *Masala Chaas*, and concluding with piping hot *Gulab Jamuns* or *Rabri-Imarti* near Tripolia Bazaar.\n\n---\n\n### Practical Pro-Tips\n* **Carry Cash:** Many of the oldest and most famous street food vendors do not accept digital payments or have unstable network coverage in crowded bazars.\n* **Hydrate Well:** Jaipur's street food can be quite spicy and rich in ghee; keep drinking bottled water or traditional *Chaas* (buttermilk).\n* **Timing is Key:** Go early for breakfast items like *Pyaaz Kachori* because the best spots sell out by mid-morning!",
+      "tools_called": [
+        "calculate_budget",
+        "recommend_places"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent strictly adhered to the negative constraint (no monuments), focused entirely on local street food and sweets, stayed within the \u20b910,000 budget, and used the correct tools."
+    },
+    {
+      "id": "TC10",
+      "category": "Out of Scope / Non-Travel",
+      "prompt": "Can you write Python code to train a Convolutional Neural Network?",
+      "agent_response": "I am a Personal Travel Planner Agent. I can only assist with travel itineraries, destination recommendations, and trip budgets.",
+      "tools_called": [],
+      "scores": {
+        "correctness": 1.0,
+        "relevance": 1.0,
+        "completeness": 1.0,
+        "tool_usage": 1.0,
+        "overall_score_pct": 100
+      },
+      "reason": "The agent correctly identified that the request was out of scope for a travel planner and politely declined to answer while defining its capabilities."
+    }
+  ]
+}
